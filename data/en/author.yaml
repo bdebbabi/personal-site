@@ -1,0 +1,15 @@
+# some information about you
+name: "Bilel Debbabi"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/bilel.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "debbabi.bilel@gmail.com"
+  phone: "+33 6 48 09 94 07"
+
+# some summary about what you do
+summary:
+  - I am an engineering student
+  - I am a Data Scientist intern

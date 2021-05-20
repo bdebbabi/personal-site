@@ -1,0 +1,43 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Data scientist intern
+# your company information
+company:
+  name: Capgemini
+  url: "https://www.capgemini.com/fr-fr/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: 
+  - path: "files/resume_en.pdf"
+    name: 🇬🇧 English
+  - path: "files/resume_fr.pdf"
+    name: 🇫🇷 French
+# a summary about you
+summary: "I am a computer science student, interested in data science and machine learning. I am looking for a position in data science starting in fall 2021."
+
+# your social links
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "debbabi.bilel@gmail.com"
+- name: Linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/bilel-debbabi/?locale=en_US"
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/bdebbabi"
+- name: Gitlab
+  icon: "fab fa-gitlab"
+  url: "https://gitlab.utc.fr/bdebbabi"
+- name: Kaggle
+  icon: "fab fa-kaggle"
+  url: "https://kaggle.com/bilel09"
+

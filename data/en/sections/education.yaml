@@ -1,0 +1,52 @@
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+degrees:
+- name: Engineering Diploma - Computer Science - Data Science
+  icon: fa-graduation-cap
+  timeframe: 2016-2021
+  institution:
+    name: University of Technology of Compiegne (UTC)
+    url: "https://www.utc.fr/"
+  # grade: #(optional)
+  #   scale: GPA
+  #   achieved: 5
+  #   outOf: 5
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    courses:
+    - name: Machine learning
+    - name: Data analysis and data mining
+    - name: Data warehouses and decision support
+    - name: Algorithmics and data structures
+    - name: Statistical methods for research and engineering
+    - name: Analysis and synthesis of images
+    - name: Design of relational and non-relational databases
+    - name: Object-oriented programming and design
+    - name: Numerical analysis
+    - name: Optimization and operational research
+    - name: Fuzzy logic
+
+
+- name: Erasmus semester in Dortmund
+  icon: fa-university
+  timeframe: 2018
+  institution:
+    name: Technichal University of Dortmund
+    url: "https://www.tu-dortmund.de/"
+    
+- name: High school diploma with highest honor
+  icon: fa-school
+  timeframe: 2016
+  institution:
+    name: CNED
+    url: "https://www.cned.fr/"
