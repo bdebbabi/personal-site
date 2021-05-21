@@ -1,3 +1,4 @@
+googleAnalytics: "G-WE1X91Z6DF"
 baseURL: https://bilel-debbabi.netlify.app/
 
 languageCode: en-us
@@ -27,7 +28,7 @@ enableEmoji: true
 # Site parameters
 params:
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/bdebbabi/personal-site
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: false
