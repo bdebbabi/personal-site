@@ -12,10 +12,15 @@
   {{ $favicon = $favicon.Resize "42x" }}
 {{ end }}
 {{ $favicon = $favicon.RelPermalink}}
-<head>
-  {{ template "_internal/google_analytics.html" . }}
-  {{ template "_internal/google_analytics_async.html" . }}
-</head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WE1X91Z6DF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WE1X91Z6DF');
+</script>
 
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
