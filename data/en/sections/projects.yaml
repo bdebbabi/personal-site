@@ -23,7 +23,7 @@ projects:
 - name: Anomaly detection in videos 
   icon: "fas fa-walking"
   timeline: "Feb 2021 - Present"
-  # url: "/projects/anomaly-detection"
+  url: "/projects/anomaly-detection-in-videos"
   summary: Development of an anomaly detection model for human actions in videos.
   tags: ["professional", "python", "TensorFlow", "PyTorch", "machine-learning", "computer-vision"]
 
@@ -37,14 +37,14 @@ projects:
 - name: Comments classification 
   icon: "fas fa-file-alt"
   timeline: "Sep 2020 - Jan 2021"
-  # url: "/projects/comments-classification"
+  url: "/projects/comments-classification"
   summary: Comments classification model into positive and negative.
   tags: ["academic", "python", "TensorFlow", "NLP", "machine-learning"]
 
 - name: Trading portfolio manager 
   icon: "fas fa-wallet"
   timeline: "Apr 2020 - Present"
-  # url: "/projects/trading-portfolio-manager"
+  url: "/projects/trading-portfolio-manager"
   summary: Portfolio tracker and trading accounts aggregator using plotly and dash.
   tags: ["hobby", "plotly", "data-analysis", "data-viz", "dash"]
 
@@ -79,7 +79,7 @@ projects:
 - name: Testing software 
   icon: "fas fa-laptop-code"
   timeline: "Sep 2019 - Feb 2020"
-  # url: "/projects/testig-software"
+  url: "/projects/testing-software"
   summary: Development of a unit testing framework in the field of tactical data links.
   tags: ["professional", "python", "tactical-data-links"]
 

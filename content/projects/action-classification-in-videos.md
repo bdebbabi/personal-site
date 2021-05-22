@@ -1,6 +1,6 @@
 ---
 title: "Action classification in videos"
-date: 2021-01-10
+date: 2021-01-16
 menu:
   sidebar:
     name: Action classification in videos

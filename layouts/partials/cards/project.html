@@ -16,7 +16,7 @@
             <img class="card-img-xs" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" />
             {{ end }}
             {{ end }} -->
-            <h5 class="card-title mb-0"> <i class="{{ .icon }}"></i> {{ .name }}</h5>
+            <h5 class="card-title mb-0"> <i class="{{ .icon }}"></i>&nbsp; {{ .name }}</h5>
           </div>
           <div class="sub-title">
             <span>{{ .role }}</span>
@@ -50,7 +50,7 @@
             {{ else if .url }}
             <span>
               <a
-                class="btn btn-outline-info btn-sm"
+                class="btn btn-outline-info btn-md"
                 href="{{ .url }}"
                 target="#"
                 >{{ i18n "project_details" }}</a

@@ -5,7 +5,7 @@ menu:
   sidebar:
     name:  Market trading simulator 
     identifier: market-trading-simulator
-    weight: 9
+    weight: 10
 ---
 The aim of this project is to develop a program to simulate the stock market. Based on historic data it's possible to buy and sell stocks and apply common strategies, as the MACD and RSI. The code is in C++ and uses QT and different design patterns.
 
