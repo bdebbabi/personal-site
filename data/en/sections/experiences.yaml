@@ -10,6 +10,22 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Veltys
+    url: "https://www.veltys.com"
+    location: Paris
+    overview:  A French strategy consultancy firm for general management,specialising in data intelligence
+  positions:
+  - designation: Data engineer
+    start: Jan 2022
+    end: Present
+    responsibilities:
+    - Definition and implementation of ETL pipelines for automated data processing (python, SQL, pyspark, BigQuery, dbt, Dagster, Databricks, Airbyte, Glue, Data Factory).
+    - Deployment of scalable infrastructures (Docker, CI/CD, Kubernetes, Terraform, Ansible, ECS, Cloud Run).
+    - Usage and administration of cloud services (AWS, GCP, Azure).
+    - Creation of dashboards and data visualization tools (Dash, Superset, Looker, Streamlit).
+    - Missions in various sectors (transportation and logistics, sports, banking, real estate).
+    - Technical support and internal training.
+- company:
     name: Capgemini
     url: "https://www.capgemini.com/"
     location: Issy-les-Moulineaux
@@ -19,10 +35,9 @@ experiences:
     start: Feb 2021
     end: Jul 2021
     responsibilities:
-    - Research in state of the art models in anomaly detection in videos.
-    - Development of an anomaly detection model for human actions in videos.
-    - The model is an AutoEncoder based on pose estimation and created using Tensorflow.  
-
+    - Research project in the Research & Innovation department
+    - State of the art in video anomaly detection models.
+    - Creation of a model for detecting abnormal behavior linked to human actions in videos. The model is an auto-encoder based on pose estimation.
 - company:
     name: Junior UTC
     url: "https://juniorutc.fr/"

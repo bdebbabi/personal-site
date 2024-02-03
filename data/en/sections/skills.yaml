@@ -2,68 +2,27 @@ section:
   name: Skills
   id: skills
   enable: true
-  weight: 5
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
-
+  
 skills:
-- grouping: Programming languages
+- name: Coding
   icon: "fas fa-laptop-code"
-  list:
-  - name: Python
-    logo: "/images/sections/skills/python.png"
-  - name: C++
-    logo: "/images/sections/skills/cpp.png"
-  - name: Javascript
-    logo: "/images/sections/skills/javascript.png"
-  - name: Html
-    logo: "/images/sections/skills/html.png"
-  - name: CSS
-    logo: "/images/sections/skills/css.png"
-  - name: SQL
-    logo: "/images/sections/skills/sql.png"
-
-- grouping: Databases
+  summary: Python, SQL, Bash
+- name: Data Engineering
   icon: "fas fa-database"
-  list:
-  - name: Cassandra
-    logo: "/images/sections/skills/cassandra.png"
-  - name: Spark
-    logo: "/images/sections/skills/spark.png"
-  - name: Postgres
-    logo: "/images/sections/skills/postgres.png"
-  - name: MongoDB
-    logo: "/images/sections/skills/mongodb.png"
-  - name: Neo4j
-    logo: "/images/sections/skills/neo4j.png"
-
-- grouping: Data Science
-  icon: "fas fa-chart-line"
-  list:
-  - name: TensorFlow
-    logo: "/images/sections/skills/tensorflow.png"
-  - name: PyTorch
-    logo: "/images/sections/skills/pytorch.png"
-  - name: Scikit-Learn
-    logo: "/images/sections/skills/sklearn.png"
-  - name: Pandas
-    logo: "/images/sections/skills/pandas.png"
-  - name: Numpy
-    logo: "/images/sections/skills/numpy.png"
-  - name: OpenCV
-    logo: "/images/sections/skills/opencv.png"
-  - name: Plotly
-    logo: "/images/sections/skills/plotly.png"
-
-- grouping: Infrastructure
+  summary: Databases (postgres), DataWarehouse (Bigquery), ETL/ELT (Azure Data factory, Airbyte, PySpark, dbt, Dagster, Databricks, AWS Glue)
+- name: DevOps
+  icon: "fas fa-gear"
+  summary: Terraform, Docker, K8s, Ansible, CI/CD
+- name: Cloud
   icon: "fas fa-cloud"
-  list:
-  - name: GCP
-    logo: "/images/sections/skills/gcp.png"
-  - name: AWS
-    logo: "/images/sections/skills/aws.png"
-  - name: Linux
-    logo: "/images/sections/skills/linux.png"
-  - name: Git
-    logo: "/images/sections/skills/git.png"
+  summary: AWS, GCP, Azure
+- name: Data Science
+  icon: "fas fa-atom"
+  summary: Tensorflow, Scikit-Learn
+- name: Dashboards
+  icon: "fas fa-chart-line"
+  summary: Dash, Looker Studio, Superset

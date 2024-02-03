@@ -1,37 +1,11 @@
-{{ range .skills }}
   <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
     <div class="card">
       <div class="card-head d-flex">
         <!-- <div class="subheading mb-3 skills-heading">{{ .grouping }}</div> -->
-        <h5 class="card-title"><i class="{{ .icon }}"></i>  {{ .grouping }}</h5>
+        <h5 class="card-title"><i class="{{ .icon }}"></i>  {{ .name }}</h5>
       </div>
       <div class="card-body">
-        <div class="row">
-          <!-- <ul> -->
-              {{ range .list }}
-              <!-- <li class="list-inline-item"> -->
-                <div class="col-6 col-xs-6 col-sm-8 col-md-8 col-lg-8 col-xl-6 pt-1">
-                  {{ if .logo }}
-                    {{ $logoImage := resources.Get .logo }}
-    
-                    {{/*  svg don't support "Fit" operation   */}}
-                    {{ if ne $logoImage.MediaType.SubType "svg" }}
-                      {{ $logoImage := $logoImage.Fit "24x24" }}
-                    {{ end }}
-    
-                    <img class="card-img-xs" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" />
-                  {{ end }}
-                  {{if .link}}
-                      <a href="{{.link}}">{{ .name }}</a>
-                  {{ else }}
-                      {{ .name  }}
-                  {{ end }}
-                </div>
-              <!-- </li> -->
-            {{ end }}
-            <!-- </ul> -->
-        </div>
+        <p class="card-text">{{ .summary | markdownify }}</p>
       </div>
     </div>
   </div>
-{{ end }}

@@ -1,8 +1,8 @@
 section:
   name: Projects
   id: projects
-  enable: true
-  weight: 2
+  enable: false
+  weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -20,13 +20,6 @@ buttons:
 
 # your projects
 projects:
-- name: Anomaly detection in videos 
-  icon: "fas fa-walking"
-  timeline: "Feb 2021 - Present"
-  url: "/projects/anomaly-detection-in-videos"
-  summary: Development of an anomaly detection model for human actions in videos.
-  tags: ["professional", "python", "TensorFlow", "PyTorch", "machine-learning", "computer-vision"]
-
 - name: Action classification in videos 
   icon: "fas fa-user-tag"
   timeline: "Sep 2020 - Jan 2021"
@@ -34,26 +27,12 @@ projects:
   summary: Person tracking and action classification in videos using the SlowFast model.
   tags: ["academic", "machine-learning", "computer-vision", "pytorch"]
 
-- name: Comments classification 
-  icon: "fas fa-file-alt"
-  timeline: "Sep 2020 - Jan 2021"
-  url: "/projects/comments-classification"
-  summary: Comments classification model into positive and negative.
-  tags: ["academic", "python", "TensorFlow", "NLP", "machine-learning"]
-
 - name: Trading portfolio manager 
   icon: "fas fa-wallet"
   timeline: "Apr 2020 - Present"
   url: "/projects/trading-portfolio-manager"
   summary: Portfolio tracker and trading accounts aggregator using plotly and dash.
   tags: ["hobby", "plotly", "data-analysis", "data-viz", "dash"]
-
-- name: Classifying patients 
-  icon: "fas fa-chart-pie"
-  timeline: "Apr 2020 - Jun 2020"
-  url: "/projects/classifying-patients"
-  summary: Patients classification into multiple disease categories based on biomechanical features.
-  tags: ["academic", "machine-learning", "scikit-learn"]
 
 - name: Geometric Deep Learning 
   icon: "fas fa-smile"
@@ -68,25 +47,3 @@ projects:
   url: "/projects/face-detection"
   summary: Face detection on images using a sliding window and HOG features.
   tags: ["academic", "machine-learning", "scikit-learn"]
-
-- name: Flight delays analysis
-  icon: "fas fa-plane-departure"
-  timeline: "Apr 2020 - Jul 2020"
-  url: "/projects/flight-delays-analysis"
-  summary: Flight delays analysis for all US commercial flights in 2004.
-  tags: ["academic", "pyspark", "cassandra", "data-analysis"]
-
-- name: Testing software 
-  icon: "fas fa-laptop-code"
-  timeline: "Sep 2019 - Feb 2020"
-  url: "/projects/testing-software"
-  summary: Development of a unit testing framework in the field of tactical data links.
-  tags: ["professional", "python", "tactical-data-links"]
-
-- name: Market trading simulator 
-  icon: "fas fa-chart-line"
-  timeline: "Feb 2019 - Jul 2019"
-  url: "/projects/market-trading-simulator"
-  summary: Designing and development of a market trading simulator in C++.
-  tags: ["academic", "C++", "finance"]
-  

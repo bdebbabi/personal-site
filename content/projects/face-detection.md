@@ -8,7 +8,7 @@ menu:
     weight: 7
 ---
 
-The goal of this project is to perform a face detection on images, using classical algorithms. The complete code is available [here](https://gitlab.utc.fr/bdebbabi/face-detection/-/tree/master).
+The goal of this project is to perform a face detection on images, using classical algorithms.
 
 ## Training
 {{<img src="https://gitlab.utc.fr/bdebbabi/face-detection/-/raw/master/images/test_example.png" align="center" caption="Face detection example" float="right">}}

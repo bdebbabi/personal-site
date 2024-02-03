@@ -8,20 +8,20 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data scientist intern
+designation: Data engineer
 # your company information
 company:
-  name: Capgemini
-  url: "https://www.capgemini.com/fr-fr/"
+  name: Veltys
+  url: "https://veltys.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: 
-  - path: "files/resume_en.pdf"
-    name: 🇬🇧 English
-  - path: "files/resume_fr.pdf"
-    name: 🇫🇷 French
+# resume: 
+#   - path: "files/resume_en.pdf"
+#     name: 🇬🇧 English
+#   - path: "files/resume_fr.pdf"
+#     name: 🇫🇷 French
 # a summary about you
-summary: "I am a computer science student, interested in data science and machine learning. I am looking for a position in data science starting in fall 2021."
+summary: "I am  data engineer with skills in Devops and Data Analytics"
 
 # your social links
 socialLinks:
@@ -37,7 +37,18 @@ socialLinks:
 - name: Gitlab
   icon: "fab fa-gitlab"
   url: "https://gitlab.utc.fr/bdebbabi"
-- name: Kaggle
-  icon: "fab fa-kaggle"
-  url: "https://kaggle.com/bilel09"
 
+
+badges:
+- type: certification
+  name: AWS Certified Cloud Practitioner
+  url: "https://www.credly.com/badges/7f1dbba7-4b50-4b0c-835e-0acb55ce549d/public_url"
+  badge: "https://images.credly.com/size/680x680/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+- type: certification
+  name: AWS Certified Solutions Architect Associate
+  url: "https://www.credly.com/badges/61440afd-e07a-453b-b3c2-7e9cb98e8ad9/public_url"
+  badge: "https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+- type: certification
+  name: Databricks Certified Data Engineer Associate
+  url: "https://credentials.databricks.com/1fa2a027-5c2d-40e0-80e7-43d28906bc7f#gs.3x8vba"
+  badge: "https://github.com/bdebbabi/personal-site/assets/47567574/6a24cd2b-aaad-4934-903f-da6bc1594d27"
