@@ -1,7 +1,7 @@
 section:
   name: Projects
   id: projects
-  enable: false
+  enable: true
   weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -12,38 +12,85 @@ buttons:
 - name: All
   filter: "all"
 - name: Professional
-  filter: "professional"
+  filter: "Professional"
 - name: Academic
-  filter: "academic"
+  filter: "Academic"
 - name: Hobby
-  filter: "hobby"
+  filter: "Hobby"
 
 # your projects
 projects:
+- name: Carbon credit platform
+  icon: "fas fa-tree"
+  role: Devops, Data engineer
+  timeline: "6 months"
+  summary: | 
+    - Definition of the architecture and creation of a scalable and resilient web platform on kubernetes
+    - Creation of data processing pipelines and dashboards to monitor commercialized projects
+    - Support back and front-end developers in defining best development practices and managing the deployment cycle
+    - Implementation of load and security tests
+  tags: ["Professional", "Terraform", "Ansible", "CI/CD", "EKS", "Lambda", "VPC", "RDS", "Glue", "S3", "SQS", "Eventbridge", "Postgresql", "PySpark", "Superset"]
+
+- name: Modern data platform to monitor a NFT marketplace in the sports industry
+  icon: "fas fa-person-running"
+  role: Data engineer
+  timeline: "6 months"
+  summary: | 
+    - Integration, centralization and processing of data from various sources in a datawarehouse
+    - Definition of KPIs and creation of dashboards requested by stakeholders
+    - Distribution of processed data to operational marketing tools for customer segmentation.
+  tags: ["Professional", "Python", "SQL", "Bigquery", "dbt", "Airbyte", "Cloud functions", "GCS", "Looker Studio"]
+
+- name: Pricing tool for a freight forwarder
+  icon: "fas fa-truck"
+  role: Data engineer
+  timeline: "10 months"
+  summary: | 
+    - Redesign of a pricing tool, with a more modern architecture and technologies.
+    - Creation of automated ETL pipelines for data collection, storage and transformation
+    - Definition and implementation of a new pricing model
+    - Optimization of performance and computing time
+  tags: ["Professional", "SQL", "PySpark", "Databricks", "Azure Data Factory", "NiFi", "Microsoft SQL Server", "Azure Blob Storage", "Azure DevOps"]
+
+- name: Real-time decision support tool for the construction of a racing program
+  icon: "fas fa-person-running"
+  role: Data engineer
+  timeline: "4 months"
+  summary: | 
+    - Creation of a tool for data visualization and prediction of race characteristics.
+    - Improvement and industrialization of the model (logistic regression)
+    - Securing the tool with user authentication
+    - Optimization of race program and calculation time
+  tags: ["Professional", "Python", "R", "Pandas", "Dash-plotly", "CI/CD", "Docker", "S3", "Cognito", "ECR", "App runner", "Azure AD"]
+
 - name: Action classification in videos 
+  role: Data scientist
   icon: "fas fa-user-tag"
   timeline: "Sep 2020 - Jan 2021"
   url: "/projects/action-classification-in-videos/" 
   summary: Person tracking and action classification in videos using the SlowFast model.
-  tags: ["academic", "machine-learning", "computer-vision", "pytorch"]
+  tags: ["Academic", "machine-learning", "computer-vision", "pytorch"]
 
 - name: Trading portfolio manager 
+  role: Data analyst
   icon: "fas fa-wallet"
   timeline: "Apr 2020 - Present"
   url: "/projects/trading-portfolio-manager"
   summary: Portfolio tracker and trading accounts aggregator using plotly and dash.
-  tags: ["hobby", "plotly", "data-analysis", "data-viz", "dash"]
+  tags: ["Hobby", "plotly", "data-analysis", "data-viz", "dash"]
 
 - name: Geometric Deep Learning 
+  role: Data scientist
   icon: "fas fa-smile"
   timeline: "Feb 2020 - Jun 2020"
   url: "/projects/geometric-deep-learning"
   summary: Face segmentation on a point cloud using PointNet ++.
-  tags: ["academic", "machine-learning", "tensorFlow"]
+  tags: ["Academic", "machine-learning", "tensorFlow"]
 
 - name: Face Detection 
+  role: Data scientist
   icon: "fas fa-smile"
   timeline: "Feb 2020 - Apr 2020"
   url: "/projects/face-detection"
   summary: Face detection on images using a sliding window and HOG features.
-  tags: ["academic", "machine-learning", "scikit-learn"]
+  tags: ["Academic", "machine-learning", "scikit-learn"]

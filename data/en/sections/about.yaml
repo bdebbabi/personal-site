@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data engineer
+designation: Data Engineer
 # your company information
 company:
   name: Veltys
@@ -21,7 +21,7 @@ company:
 #   - path: "files/resume_fr.pdf"
 #     name: 🇫🇷 French
 # a summary about you
-summary: "I am a data engineer with skills in Devops and Data Analytics"
+summary: "I am a Data Engineer with skills in Devops and Data Analytics"
 
 # your social links
 socialLinks:
@@ -34,9 +34,6 @@ socialLinks:
 - name: Github
   icon: "fab fa-github"
   url: "https://github.com/bdebbabi"
-- name: Gitlab
-  icon: "fab fa-gitlab"
-  url: "https://gitlab.utc.fr/bdebbabi"
 
 
 badges:

@@ -1,0 +1,16 @@
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+
+publications:
+- title: Automatic part segmentation of facial anatomies using geometric deep learning toward a computer-aided facial rehabilitation
+  publishedIn:
+    name: The International Journal of Intelligent Real-Time Automation
+    date: 7 July 2021
+    url: https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence
+  paper:
+    summary: Detection, identification, and segmentation of facial landmarks and anatomies play an essential role in the automatic reconstruction of patient specific model of the human head for facial diagnosis, monitoring, and rehabilitation. The objective of the present study was to apply geometric deep learning to perform part segmentation on the human face to automatically segment facial anatomies from a 3D point set.
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0952197623000167

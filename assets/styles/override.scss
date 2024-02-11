@@ -1,0 +1,20 @@
+.project-tags-holder {
+    width: 90% !important;
+  }
+
+.project-btn-holder {
+width: 10% !important;
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+
+    span {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.filtr-item {
+    width: 100% !important;
+    max-width: 100% !important;
+  }

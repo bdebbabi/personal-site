@@ -13,7 +13,7 @@ skills:
   summary: Python, SQL, Bash
 - name: Data Engineering
   icon: "fas fa-database"
-  summary: Databases (postgres), DataWarehouse (Bigquery), ETL/ELT (Azure Data factory, Airbyte, PySpark, dbt, Dagster, Databricks, AWS Glue)
+  summary: Databases (postgres), DataWarehouses (Bigquery), ETL/ELT (Azure Data factory, Airbyte, PySpark, dbt, Dagster, Databricks, AWS Glue)
 - name: DevOps
   icon: "fas fa-gear"
   summary: Terraform, Docker, K8s, Ansible, CI/CD
@@ -23,6 +23,6 @@ skills:
 - name: Data Science
   icon: "fas fa-atom"
   summary: Tensorflow, Scikit-Learn
-- name: Dashboards
+- name: Data Analytics
   icon: "fas fa-chart-line"
   summary: Dash, Looker Studio, Superset
